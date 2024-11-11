@@ -4,11 +4,9 @@
 \name{CreatePackageInR-package}
 \alias{CreatePackageInR}
 \alias{CreatePackageInR-package}
-\title{CreatePackageInR: A Package for Demonstrating Custom Functions in R}
+\packageTitle{CreatePackageInR}
 \description{
-The CreatePackageInR package provides a collection of functions that are used for
-graph creation and mathematical calculations, such as finding the greatest common divisor (GCD)
-and calculating shortest paths using Dijkstra's algorithm.
+\packageDescription{CreatePackageInR}
 }
 \section{CreatePackageInR functions}{
 
