@@ -1,9 +1,24 @@
-#' Euclidean Algorithm to find GCDs
+#' CreatePackageInR: A Package for Demonstrating Custom Functions in R
+#'
+#' The CreatePackageInR package provides a collection of functions that are used for
+#' graph creation and mathematical calculations, such as finding the greatest common divisor (GCD)
+#' and calculating shortest paths using Dijkstra's algorithm.
+#'
+#' @section CreatePackageInR functions:
+#' The package includes the following functions:
+#' \itemize{
+#'   \item \code{euclidean()}: Implements the Euclidean algorithm to find the GCD of two numbers.
+#'   \item \code{dijkstra()}: Implements Dijkstra's algorithm to find the shortest path from a given initial node.
+#' }
+#'
+#' @keywords internal
+"_PACKAGE"
+
+#' Euclidean Algorithm to find GCD
 #'
 #' @param a First number
 #' @param b Second number
 #' @return GCD of a and b
-#' @importFrom stats setNames
 #' @examples
 #' euclidean(100, 1000)
 #' euclidean(123612, 13892347912)
@@ -25,7 +40,6 @@ euclidean <- function(a, b) {
 #' @param graph Data frame of edges (v1, v2, w)
 #' @param init_node Initial node to calculate paths from
 #' @return Vector of minimum distances from init_node
-#' @importFrom stats setNames
 #' @examples
 #' wiki_graph <- data.frame(
 #'   v1 = c(1, 1, 1, 2, 2, 2, 3, 3, 3, 3, 4, 4, 4, 5, 5, 6, 6, 6),
@@ -50,8 +64,6 @@ dijkstra <- function(graph, init_node) {
   while(length(priority_queue) > 0) {
     current_node <- names(priority_queue)[which.min(priority_queue)]
     priority_queue <- priority_queue[-which.min(priority_queue)]
-
-    v1 = NULL
 
     edges <- subset(graph, v1 == current_node)
     for (i in 1:nrow(edges)) {
