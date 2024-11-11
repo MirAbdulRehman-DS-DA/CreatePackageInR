@@ -1,4 +1,4 @@
-#' Euclidean Algorithm to find GCD
+#' Euclidean Algorithm to find GCDs
 #'
 #' @param a First number
 #' @param b Second number

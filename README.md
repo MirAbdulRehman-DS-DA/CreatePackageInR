@@ -1,10 +1,8 @@
-<!-- badges: start -->
-  [![R-CMD-check](https://github.com/MirAbdulRehman-DS-DA/CreatePackageInR/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/MirAbdulRehman-DS-DA/CreatePackageInR/actions/workflows/R-CMD-check.yaml)
-  <!-- badges: end -->
-  
-  <!-- badges: start -->
-  [![R-CMD-check](https://github.com/MirAbdulRehman-DS-DA/CreatePackageInR/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/MirAbdulRehman-DS-DA/CreatePackageInR/actions/workflows/R-CMD-check.yaml)
-  <!-- badges: end -->
+## GitHub Action Badge
+
+```markdown
+     ![R-CMD-check](https://github.com/MirAbdulRehman-DS-DA/CreatePackageInR/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/MirAbdulRehman-DS-DA/CreatePackageInR/actions/workflows/R-CMD-check.yaml)
+     ```
 
 ## Installation
 

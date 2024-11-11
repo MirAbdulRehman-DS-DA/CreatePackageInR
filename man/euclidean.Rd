@@ -2,7 +2,7 @@
 % Please edit documentation in R/RPackage.R
 \name{euclidean}
 \alias{euclidean}
-\title{Euclidean Algorithm to find GCD}
+\title{Euclidean Algorithm to find GCDs}
 \usage{
 euclidean(a, b)
 }
@@ -15,7 +15,7 @@ euclidean(a, b)
 GCD of a and b
 }
 \description{
-Euclidean Algorithm to find GCD
+Euclidean Algorithm to find GCDs
 }
 \examples{
 euclidean(100, 1000)
